@@ -12,12 +12,13 @@
 		29FC52CA1B3A8D26007DEB40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52C91B3A8D26007DEB40 /* AppDelegate.m */; };
 		29FC52D21B3A8D26007DEB40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC52D11B3A8D26007DEB40 /* Images.xcassets */; };
 		29FC52EC1B3A8DC4007DEB40 /* APRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52EB1B3A8DC4007DEB40 /* APRootViewController.m */; };
-		AEE606121BA7CFD600F82F90 /* libAPOpenSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE606111BA7CFD600F82F90 /* libAPOpenSdk.a */; };
+		CF5FD9525EF9914EB4F51BD6 /* libPods-APSocialSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD6463089948448C6419916 /* libPods-APSocialSDKDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A6660932562DDB84DFBCA09 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1A666448BBCD98A99206BDA2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		1A66669A5534B7D8430EB2B6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		1A666961E89CF4B054AF9318 /* APOpenSdk.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = APOpenSdk.podspec; path = ../APOpenSdk.podspec; sourceTree = "<group>"; };
 		29FC52C11B3A8D26007DEB40 /* APSocialSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSocialSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC52C51B3A8D26007DEB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,9 +28,9 @@
 		29FC52D11B3A8D26007DEB40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29FC52EA1B3A8DC4007DEB40 /* APRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRootViewController.h; sourceTree = "<group>"; };
 		29FC52EB1B3A8DC4007DEB40 /* APRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRootViewController.m; sourceTree = "<group>"; };
-		29FC52EF1B3A8E95007DEB40 /* APOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPI.h; sourceTree = "<group>"; };
-		29FC52F01B3A8E95007DEB40 /* APOpenAPIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPIObject.h; sourceTree = "<group>"; };
-		AEE606111BA7CFD600F82F90 /* libAPOpenSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPOpenSdk.a; sourceTree = "<group>"; };
+		2AD6463089948448C6419916 /* libPods-APSocialSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APSocialSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76665751F0C79C198120955F /* Pods-APSocialSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APSocialSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APSocialSDKDemo/Pods-APSocialSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA4EB8851F42B44E4584149 /* Pods-APSocialSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APSocialSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-APSocialSDKDemo/Pods-APSocialSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,13 +38,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE606121BA7CFD600F82F90 /* libAPOpenSdk.a in Frameworks */,
+				CF5FD9525EF9914EB4F51BD6 /* libPods-APSocialSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15F5FC23F1A85319406AA33C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD6463089948448C6419916 /* libPods-APSocialSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		29FC52B81B3A8D26007DEB40 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +61,9 @@
 				1A666448BBCD98A99206BDA2 /* .gitignore */,
 				1A6660932562DDB84DFBCA09 /* README.md */,
 				1A666961E89CF4B054AF9318 /* APOpenSdk.podspec */,
+				1A66669A5534B7D8430EB2B6 /* Podfile */,
+				887583968F704D7740EEB8BB /* Pods */,
+				15F5FC23F1A85319406AA33C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,19 +101,17 @@
 		29FC52ED1B3A8E95007DEB40 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				29FC52EE1B3A8E95007DEB40 /* SocialSDK */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
 		};
-		29FC52EE1B3A8E95007DEB40 /* SocialSDK */ = {
+		887583968F704D7740EEB8BB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				29FC52EF1B3A8E95007DEB40 /* APOpenAPI.h */,
-				29FC52F01B3A8E95007DEB40 /* APOpenAPIObject.h */,
-				AEE606111BA7CFD600F82F90 /* libAPOpenSdk.a */,
+				76665751F0C79C198120955F /* Pods-APSocialSDKDemo.debug.xcconfig */,
+				9AA4EB8851F42B44E4584149 /* Pods-APSocialSDKDemo.release.xcconfig */,
 			);
-			path = SocialSDK;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +121,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29FC52E41B3A8D26007DEB40 /* Build configuration list for PBXNativeTarget "APSocialSDKDemo" */;
 			buildPhases = (
+				72FC50E1D75AFD9237365762 /* [CP] Check Pods Manifest.lock */,
 				29FC52BD1B3A8D26007DEB40 /* Sources */,
 				29FC52BE1B3A8D26007DEB40 /* Frameworks */,
 				29FC52BF1B3A8D26007DEB40 /* Resources */,
@@ -135,6 +146,8 @@
 				TargetAttributes = {
 					29FC52C01B3A8D26007DEB40 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = UCBHNUWF8G;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -167,6 +180,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72FC50E1D75AFD9237365762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APSocialSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29FC52BD1B3A8D26007DEB40 /* Sources */ = {
@@ -264,31 +298,33 @@
 		};
 		29FC52E51B3A8D26007DEB40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76665751F0C79C198120955F /* Pods-APSocialSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UCBHNUWF8G;
 				INFOPLIST_FILE = APSocialSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/APSocialSDKDemo/Framework/SocialSDK",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "*";
 			};
 			name = Debug;
 		};
 		29FC52E61B3A8D26007DEB40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA4EB8851F42B44E4584149 /* Pods-APSocialSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = APSocialSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/APSocialSDKDemo/Framework/SocialSDK",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
