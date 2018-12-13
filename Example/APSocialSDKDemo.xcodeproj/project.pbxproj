@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A66659502ECB2A7F39E4F5E /* APOpenSdk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1A666961E89CF4B054AF9318 /* APOpenSdk.podspec */; };
 		29FC52C71B3A8D26007DEB40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52C61B3A8D26007DEB40 /* main.m */; };
 		29FC52CA1B3A8D26007DEB40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52C91B3A8D26007DEB40 /* AppDelegate.m */; };
 		29FC52D21B3A8D26007DEB40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC52D11B3A8D26007DEB40 /* Images.xcassets */; };
@@ -15,7 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A6660932562DDB84DFBCA09 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1A666448BBCD98A99206BDA2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		1A666961E89CF4B054AF9318 /* APOpenSdk.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = APOpenSdk.podspec; path = ../APOpenSdk.podspec; sourceTree = "<group>"; };
 		29FC52C11B3A8D26007DEB40 /* APSocialSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSocialSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC52C51B3A8D26007DEB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29FC52C61B3A8D26007DEB40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 				29FC52C31B3A8D26007DEB40 /* APSocialSDKDemo */,
 				29FC52C21B3A8D26007DEB40 /* Products */,
 				1A666448BBCD98A99206BDA2 /* .gitignore */,
+				1A6660932562DDB84DFBCA09 /* README.md */,
+				1A666961E89CF4B054AF9318 /* APOpenSdk.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29FC52D21B3A8D26007DEB40 /* Images.xcassets in Resources */,
+				1A66659502ECB2A7F39E4F5E /* APOpenSdk.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

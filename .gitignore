@@ -71,4 +71,4 @@ iOSInjectionProject/
 IPA/
 upload/
 *.xcuserstate
-**/xcshareddate/
+xcshareddate/
