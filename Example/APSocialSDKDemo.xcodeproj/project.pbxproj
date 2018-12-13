@@ -78,7 +78,6 @@
 		29FC52C31B3A8D26007DEB40 /* APSocialSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				29FC52ED1B3A8E95007DEB40 /* Framework */,
 				29FC52C81B3A8D26007DEB40 /* AppDelegate.h */,
 				29FC52C91B3A8D26007DEB40 /* AppDelegate.m */,
 				29FC52EA1B3A8DC4007DEB40 /* APRootViewController.h */,
@@ -96,13 +95,6 @@
 				29FC52C61B3A8D26007DEB40 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		29FC52ED1B3A8E95007DEB40 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Framework;
 			sourceTree = "<group>";
 		};
 		887583968F704D7740EEB8BB /* Pods */ = {
@@ -252,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -289,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -304,9 +296,13 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = UCBHNUWF8G;
 				INFOPLIST_FILE = APSocialSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "*";
 			};
@@ -320,9 +316,13 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = APSocialSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
